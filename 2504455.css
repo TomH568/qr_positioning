@@ -39,3 +39,27 @@ h1 {
 #camera {
     width: 100%;
 }
+
+button {
+    margin: 20px;
+    width: 100px;
+    height: 100px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 50%;
+    border-style: solid;
+    background-color: var(--theme);
+    cursor: pointer;
+}
+
+button:hover {
+    filter: brightness(1.5);
+    box-shadow: 
+        2px 2px 2px #000,
+        -2px -2px 2px #000,
+        2px -2px 2px #000,
+        -2px 2px 2px #000;
+    transform: rotate(720deg) scale(1.2);
+    transition: all 1s;
+}
