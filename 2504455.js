@@ -68,3 +68,5 @@ function showMarkerAt(top, left) {
     marker.style.top = top;
     marker.style.left = left;
 }
+
+/* Nobody reads these */
